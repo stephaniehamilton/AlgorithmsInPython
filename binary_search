@@ -13,3 +13,13 @@ def binary_search(list, target):
       last = midpoint - 1
       
   return None
+
+'''
+Binary search breaks down the array or list into smaller sets until the target value is located. 
+First we have to create 2 variables to note the beginning and end of the array. 
+We write this as first = 0 and last = len(list-1) because in most programming languages, the position number starts at 0,
+so if you have 5 numbers, the last value would be at position 4 (0, 1, 2 ,3 ,4).
+Then the while loop is created, and until the condition evaluates to false it will keep executing. 
+For binary search, we need to calculate the midpoint of our list. to do this we add the first and last and divide by 2. 
+Then we continue breaking it down until our value is found.
+'''
